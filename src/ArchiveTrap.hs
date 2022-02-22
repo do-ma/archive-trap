@@ -16,7 +16,7 @@ import Turtle.Directory.Filter
 import DevOps.Git ( mkRepo, Repo )
 
 secureGitRepo :: Repo
-secureGitRepo = mkRepo "git@github.com:do-ma/infrastructure.git"
+secureGitRepo = mkRepo "git@github.com:doma-engineering/infrastructure.git"
 
 computerType :: Text
 computerType = "wsl"
